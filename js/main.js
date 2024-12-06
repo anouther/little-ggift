@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('I love you').split('');
+        const titles = ('for you, my king ❤️').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Each moment we've shared is truly a gift. You bring laughter, love, and comfort into my life. You're my inspiration, my anchor, my comfort, my sunshine, and my everything. You are my home, my love, my world.";
+            subtitle.innerText = "cuz man do also deserve flowers, remember? hope you like itt~ ";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
